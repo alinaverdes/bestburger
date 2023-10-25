@@ -10,6 +10,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 header .logo {
@@ -18,10 +19,14 @@ header .logo {
     font-size: 2rem;
 }
 
-header .logo i {
-    margin-right: .3rem;
-}
 
+
+header .logo img {
+  
+    height: 100px;
+    width: 100px;
+   
+}
 header .navbar a {
     font-size: 1.8rem;
     margin-left: 2.5rem;
@@ -34,7 +39,7 @@ header .navbar a:hover {
 
 #menu-bar {
     font-size: 3.5rem;
-    color: #fff;
+    color: #C7D1CC;
     cursor: pointer;
     display: none;
 }
@@ -46,7 +51,7 @@ header .navbar a:hover {
 }
 
 .home-wrapper {
-    padding-top: 10px;
+    padding-top: 40px;
     height: 100%;
     min-height: 10vh;
     align-items: center;
@@ -107,8 +112,8 @@ header .navbar a:hover {
 }
 
 .effects-1 img {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     animation: spin 15s linear infinite;
 }
 
@@ -229,7 +234,7 @@ header .navbar a:hover {
 }
 
 .services .box-conatiner .box:hover {
-    border: 0.2rem solid var(--first-color);
+    border: 0.2rem solid var(--text-color);
 }
 
 .services .box-conatiner .box i {
@@ -240,13 +245,13 @@ header .navbar a:hover {
 
 .services .box-conatiner .box h3 {
     font-size: 2rem;
-    color: var(--color-white);
+    color: #d77633;
 }
 
 .services .box-conatiner .box p {
     padding: 1rem 0;
     font-size: 1.4rem;
-    color: #fff;
+    color: #C7D1CC;
     line-height: 2;
 }
 
@@ -295,7 +300,7 @@ header .navbar a:hover {
 .menu .box-container .box .content p {
     padding: 1rem 0;
     font-size: 1.4rem;
-    color: #fff;
+    color: #C7D1CC;
     line-height: 2;
 }
 
@@ -443,7 +448,7 @@ header .navbar a:hover {
 
 .footer .box-container .box h3 {
     font-size: 2.2rem;
-    color: #fff;
+    color: #C7D1CC;
     padding: 1rem 0;
 }
 

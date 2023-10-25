@@ -1,12 +1,12 @@
 :root {
-    --first-color: #a83b3e;
-    --first-color-alt: #a83b3e;
-    --text-color-light: #ffff;
-    --title-color: #FFFF;
+    --first-color: #d77633;
+    --first-color-alt: #d77633;
+    --text-color-light: #d77633 !important;
+    --title-color: #d77633;
     --text-color: #C7D1CC;
     --body-color: #000000;
     --body-color-dark: #000000;
-    --container-color: #FFFF;
+    --container-color: #C7D1CC;
 }
 
 @keyframes float {
@@ -102,7 +102,7 @@ h1, h2 {
 }
 
 h3 {
-    color: var(--text-color-light);
+    color: #d77633;
     font-size: 23px;
     font-weight: 400;
     margin-bottom: 13px;
